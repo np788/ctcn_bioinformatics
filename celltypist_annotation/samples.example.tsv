@@ -1,0 +1,2 @@
+SAMPLE001	/path/to/SAMPLE001/filtered_feature_bc_matrix.h5	/path/to/SAMPLE001.qced_barcodes.txt
+SAMPLE002	/path/to/SAMPLE002/filtered_feature_bc_matrix.h5	/path/to/SAMPLE002.qced_barcodes.txt
