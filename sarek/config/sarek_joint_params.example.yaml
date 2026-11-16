@@ -1,0 +1,21 @@
+# Sanitized example parameters for the work-derived joint germline workflow.
+
+input: "config/sarek_samplesheet.csv"
+outdir: "results_joint"
+
+# The original analysis started from pre-aligned CRAM/CRAI files.
+step: "variant_calling"
+
+# Germline caller used in the workflow.
+tools: "haplotypecaller"
+
+# Enable cohort-level GATK HaplotypeCaller joint germline calling.
+joint_germline: true
+
+# Portable placeholder reference configuration.
+# Replace with the same reference/resources used by your environment.
+genome: "GATK.GRCh38"
+
+# If using explicit local reference resources instead of iGenomes, set
+# igenomes_ignore: true and provide the corresponding fasta/fai/dict,
+# dbSNP, known-indel, and VQSR resources in a private params file.

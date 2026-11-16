@@ -1,0 +1,13 @@
+work/
+results_joint/
+logs/
+singularity/
+.nextflow/
+.nextflow.*
+.nextflow.log*
+*.html
+*.trace
+*.timeline
+*.report
+config/sarek_joint_params.yaml
+config/sarek_samplesheet.csv

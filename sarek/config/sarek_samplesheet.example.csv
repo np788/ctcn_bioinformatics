@@ -1,0 +1,4 @@
+patient,sample,cram,crai
+DONOR001,DONOR001,/path/to/DONOR001.cram,/path/to/DONOR001.cram.crai
+DONOR002,DONOR002,/path/to/DONOR002.cram,/path/to/DONOR002.cram.crai
+DONOR003,DONOR003,/path/to/DONOR003.cram,/path/to/DONOR003.cram.crai
